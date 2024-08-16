@@ -18,7 +18,7 @@ public class HttpHandler : MonoBehaviour
     public GameObject Botonsiguiente;
     public GameObject BotonAnterior;
     
-    private string fakeApiUrl = "https://my-json-server.typicode.com/Dhako197/JsonPlaceholder";
+    private string fakeApiUrl = "https://my-json-server.typicode.com/SebastianVargasu/JsonRepository";
     private string RickAndMortyUrl= "https://rickandmortyapi.com/api";
     
     public void SendRequest()
