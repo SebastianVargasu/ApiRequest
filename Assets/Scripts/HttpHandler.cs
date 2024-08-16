@@ -146,7 +146,7 @@ public class HttpHandler : MonoBehaviour
     public void Siguiente()
     {
         currentId++;
-        if (currentId > 3)
+        if (currentId > 4)
             currentId = 1;
         StartCoroutine("GetUserData", currentId);
     }
@@ -154,8 +154,8 @@ public class HttpHandler : MonoBehaviour
     public void Anterior()
     {
         currentId--;
-        if (currentId < 1)
-            currentId = 3;
+        if (currentId < 4)
+            currentId = 4;
         StartCoroutine("GetUserData", currentId);
     }
    
